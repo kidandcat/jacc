@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf docs && parcel build index.html --out-dir docs",
+    "build": "rm -rf docs && parcel build index.html --out-dir docs --public-url https://kidandcat.github.io/jacc/",
     "start": "parcel index.html"
   },
   "keywords": [],
