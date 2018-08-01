@@ -1,0 +1,23 @@
+{
+  "name": "jacc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build index.html",
+    "start": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^1.4.2",
+    "@material-ui/icons": "^2.0.0",
+    "hoist-non-react-statics": "^3.0.1",
+    "normalize.css": "^8.0.0",
+    "parcel": "^1.9.7",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-fullpage": "^0.1.18"
+  }
+}
