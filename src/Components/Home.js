@@ -2,7 +2,7 @@ import * as React from "react";
 import { SectionsContainer, Section } from "react-fullpage";
 import { SectionOne } from "/src/Components/Sections/SectionOne";
 import { SectionOneMobile } from "/src/Components/Sections/SectionOneMobile";
-
+import { SectionTwo } from "/src/Components/Sections/SectionTwo";
 export class Home extends React.Component {
   render() {
     let options = {
@@ -18,7 +18,7 @@ export class Home extends React.Component {
       return (
         <SectionsContainer {...options}>
           <SectionOne />
-          <Section>Page 2</Section>
+          <SectionTwo />
           <Section>Page 3</Section>
         </SectionsContainer>
       );
@@ -26,7 +26,7 @@ export class Home extends React.Component {
       return (
         <SectionsContainer {...options}>
           <SectionOneMobile />
-          <Section>Page 2</Section>
+          <SectionTwo />
           <Section>Page 3</Section>
         </SectionsContainer>
       );
